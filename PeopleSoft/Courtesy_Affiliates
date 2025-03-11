@@ -1,6 +1,6 @@
-/* Related tables: ASU_PERS_AFF_SB - ASU CC Subaffiliation Record
-ASU_SUBAFIL_TBL - ASU CC Sub-Affil Type
-ASU_AFF_SB_VW - ASU CC Subaffiliation View */
+--Related tables: ASU_PERS_AFF_SB - ASU CC Subaffiliation Record
+--ASU_SUBAFIL_TBL - ASU CC Sub-Affil Type
+--ASU_AFF_SB_VW - ASU CC Subaffiliation View
 
 SELECT A.EMPLID, A.ASU_SUBAFFIL_CODE, A.EFF_STATUS, TO_CHAR(A.ASU_EFFDT,'YYYY-MM-DD'), A.CAMPUS, A.DEPTID, A.ASU_AFFIL_TITLE 
   FROM PS_ASU_AFF_SB_VW A 
